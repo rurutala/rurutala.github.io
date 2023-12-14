@@ -1,0 +1,128 @@
+.illust{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.illust_title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.illust_using{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.illust_grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+    grid-template-columns: 190px 20px 80px 250px;
+    margin-left: var(--body_margin_width);
+    margin-right: var(--body_margin_width);
+
+    font-weight: bold;
+
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.itemtablet{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+}
+.item_qes{
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    font-size: 24px;
+}
+.item_ans{
+    grid-row: 1;
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.illust_works_grid{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 180px 180px 180px;
+    margin-left: var(--body_margin_width);
+    margin-right: var(--body_margin_width);
+
+    font-weight: bold;
+}
+
+.item1{
+    grid-row: 1;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+.item2{
+    grid-row: 1;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+}
+.item3{
+    grid-row: 1;
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+}
+.item4{
+    grid-row: 3;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+.item5{
+    grid-row: 3;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+}
+.item6{
+    grid-row: 3;
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 500px) {  
+    .illust_grid{
+        grid-template-columns: 100px 30px 55px 150px;
+    }
+
+    .item_qes{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .item_ans{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .media_img{
+        width: 130px;
+    }
+
+    .illust_works_grid{
+        grid-template-columns: 120px 120px 120px;
+    }
+}
