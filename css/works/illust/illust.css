@@ -129,6 +129,33 @@
     object-view-box: inset(100px 650px 1500px 100px);
     border-radius:50%;
 }
+.illust7_icon{
+    object-view-box: inset(250px 750px 2000px 400px);
+    border-radius:50%;
+}
+.illust8_icon{
+    object-view-box: inset(350px 350px 1500px 550px);
+    border-radius:50%;
+}
+.illust9_icon{
+    object-view-box: inset(100px 250px 1300px 450px);
+    border-radius:50%;
+}
+.illust10_icon{
+    object-view-box: inset(250px 450px 1400px 250px);
+    border-radius:50%;
+}
+.illust11_icon{
+    object-view-box: inset(200px 350px 1800px 800px);
+    border-radius:50%;
+}
+
+.illust12_icon{
+    object-view-box: inset(0px 400px 2000px 750px);
+    border-radius:50%;
+}
+
+
 
 @media (max-width: 500px) {  
     .illust_grid{
