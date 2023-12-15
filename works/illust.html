@@ -10,17 +10,13 @@
  <link rel="stylesheet" href="./../css/singleton/header.css">
  <link rel="stylesheet" href="./../css/singleton/footer.css">
  <link rel="stylesheet" href="./../css/singleton/css_animation.css">
+ <link rel="stylesheet" href="./../css/singleton/imgpopup.css">
 
  <link rel="stylesheet" href="./../css/works/illust/illust.css">
 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="./../js/singleton/imgpopup.js"></script>
 
- <!-- [if lt IE 9]
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-  -->
-  <!-- [endif]
- <script src="main.js"></script>
- -->
  </head>
  <body>
  <!----- header----->
@@ -79,12 +75,62 @@
     </div>
   </div>
   <div class="illust_works_grid">
-    <div class="item1">coming soon</div>
-    <div class="item2">coming soon</div>
-    <div class="item3">coming soon</div>
-    <div class="item4">coming soon</div>
-    <div class="item5">coming soon</div>
-    <div class="item6">coming soon</div>
+
+    <div class="item1">
+      <div class="wrap">
+        <img src="./../img/works/illust/illust_1.png" class="modal-open illust1_icon" onclick="clickFunction(1)">
+      </div>
+      <div class="modal-container" value = "1">
+        <div class="modal-body">
+          <!-- 閉じるボタン -->
+          <div class="modal-close">×</div>
+          <!-- モーダル内のコンテンツ -->
+          <div class="modal-content">
+            <img src="./../img/works/illust/illust_1.png" width="300" height="420">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="item2">
+
+      <div class="wrap">
+        <img src="./../img/works/illust/illust_2.png" class="modal-open illust2_icon" onclick="clickFunction(2)">
+      </div>
+      <div class="modal-container" value = "2">
+        <div class="modal-body">
+          <!-- 閉じるボタン -->
+          <div class="modal-close">×</div>
+          <!-- モーダル内のコンテンツ -->
+          <div class="modal-content">
+            <img src="./../img/works/illust/illust_2.png" width="250" height="420">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="item3">
+
+
+      <div class="wrap">
+        <img src="./../img/works/illust/illust_3.png" class="modal-open illust3_icon" onclick="clickFunction(3)">
+      </div>
+      <div class="modal-container" value = "3">
+        <div class="modal-body">
+          <!-- 閉じるボタン -->
+          <div class="modal-close">×</div>
+          <!-- モーダル内のコンテンツ -->
+          <div class="modal-content">
+            <img src="./../img/works/illust/illust_3.png" width="230" height="420">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="item4"></div>
+    <div class="item5"></div>
+    <div class="item6"></div>
   </div>
 
 </div>
