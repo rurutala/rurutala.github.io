@@ -153,3 +153,10 @@
         grid-template-columns: 120px 120px 120px;
     }
 }
+
+@media (min-width: 1500px){
+    .img_size{
+        max-width: 100%;
+        height: auto;
+    }
+}
