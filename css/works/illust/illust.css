@@ -116,6 +116,19 @@
     object-view-box: inset(100px 450px 2700px 450px);
     border-radius:50%;
 }
+.illust4_icon{
+    object-view-box: inset(200px 750px 2400px 150px);
+    border-radius:50%;
+}
+.illust5_icon{
+    object-view-box: inset(100px 850px 2000px 300px);
+    border-radius:50%;
+}
+
+.illust6_icon{
+    object-view-box: inset(100px 650px 1500px 100px);
+    border-radius:50%;
+}
 
 @media (max-width: 500px) {  
     .illust_grid{
@@ -136,6 +149,7 @@
     }
 
     .illust_works_grid{
+        grid-template-rows: 150px 0px 150px;
         grid-template-columns: 120px 120px 120px;
     }
 }

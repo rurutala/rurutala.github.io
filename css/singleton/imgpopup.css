@@ -75,3 +75,13 @@
 	background: #fff;
     */
 }
+
+@media (max-width: 500px) {  
+
+	.modal-open{
+
+		width: 100px;
+		height: 100px;
+
+	}
+}
