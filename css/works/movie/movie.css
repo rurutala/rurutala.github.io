@@ -22,7 +22,6 @@
     margin-left: var(--body_margin_width);
     margin-right: var(--body_margin_width);
 
-    font-weight: bold;
     grid-template-columns: 180px 180px 180px;
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);

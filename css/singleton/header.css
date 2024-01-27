@@ -8,7 +8,6 @@
 
 .title_text{
  font-size: 24px;
- font-weight: bold;
  margin-left: var(--header_margin_width);
  font-weight: bold;
  letter-spacing: 4px;
@@ -24,7 +23,6 @@
     justify-content: flex-end;
 
     font-size: 20px;
-    font-weight: bold;
     align-items: center;
  }
 
