@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>塚田雅大のポートフォリオサイト</title>
+    <meta name="description" content = "塚田雅大のポートフォリオサイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/top_slide_works.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../profile/css/profile-style.css">
+    <link rel="stylesheet" href="../works-all/css/works-all-style.css">
+    <link rel="stylesheet" href="./css/works-detail.css">
+
+
+</head>
+<body>
+
+<header class="header" id="main-header">
+    <div class = "title_text">
+        Masahiro Tsukada<br>Portpolio Site
+    </div>
+    <ul class="menu_ul">
+        <li class = "menu_li"><a href="../index.html" class="menu-animation"><img src="../image/home.png" alt="home画像" class="icon-home">Home</a></li>
+        <li class = "menu_li"><a href="../profile/profile.html" class="menu-animation"><img src="../image/profile.png" alt="home画像" class="icon-profile">Profile</a></li>
+        <li class = "menu_li"><a href="../works-all/works-all.html" class="menu-animation"><img src="../image/works.png" alt="home画像" class="icon-works">Works</a></li>
+    </ul>
+</header>
+
+<div class="profile-first-title profile-title">
+    <img src="../image/works.png" alt="Worksタイトル" class="icon-profile-home">
+    Works
+
+</div>
+<div class="infomation-bottom-border"></div>
+
+<div class="works-detail-title">
+イラスト初心者講座
+</div>
+
+<div class="works-detail-genre">
+    <div class="works-all-genre-detail">
+        Movie
+    </div>
+    <div class="works-all-genre-detail">
+        DaVinci Resolve
+    </div>
+    <div class="works-all-genre-detail">
+        OBS
+    </div>
+</div>
+
+<div class="swiper">
+    <!-- 必要に応じたwrapper -->
+    <div class="swiper-wrapper works_slide">
+      <!-- スライド -->
+        <div class="swiper-slide">
+            <div>
+
+            <div class="works-name-text">
+                イラスト初心者講座
+            </div>
+            <video controls src="./../movie/イラスト制作の始め方.mp4"class="responsive-img-slide"></video>
+            </div>
+        </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+<!-- 必要に応じてナビボタン -->
+
+  </div>
+
+  <div class="works-detail-text">
+    【説明】
+    <br>
+    サークルに加入して間もない一年生に向けてのイラスト制作初心者講座の動画になります。動画のサムネイル制作から撮影、編集など一通りを体験しながら作成することができました。
+  </div>
+
+
+  <div class="button-container">
+    <button class="round-button" onclick="location.href=''">▲</button>
+    <div class="move-top">TOPへ戻る</div>
+  </div>
+
+  <div class="button-container-undo">
+    <button class="round-button-undo" onclick="location.href='../works-all/works-all.html'">◀</button>
+    <div class="move-undo">Worksへ</div>
+  </div>
+
+<div class="contact-bottom-border"></div>
+
+<footer>
+    Copyright © 2024 MasahiroTsukada All Rights Reserved.
+</footer>
+
+<!-- JavaScriptファイルの読み込み -->
+<script src="../js/header_switch.js"></script>
+<script src="../js/top_slide_works.js"></script>
+<script src="../js/works_slide_works.js"></script>
+
+
+</body>
+</html>

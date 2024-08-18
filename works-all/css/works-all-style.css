@@ -1,0 +1,63 @@
+.works-grid{
+    display: grid;
+
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.item {
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 15px;
+
+    box-shadow: 0 0px 7px 2px rgba(0, 0, 0, .5);
+  }
+
+.works-display{
+    height: 600px;
+
+}
+
+.works-image{
+    aspect-ratio: 16 / 9;
+    background-color: #1e2f4a;
+}
+
+.works-all-title{
+font-weight: bold;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.works-all-year{
+padding-bottom: 1rem;
+}
+
+.works-all-text{
+padding-bottom: 1rem;
+}
+
+.works-all-genre{
+display: flex;
+padding-bottom: 1rem;
+}
+
+.works-all-view{
+    float: right;
+    bottom: 0px;
+}
+
+.works-all-genre-detail{
+    background-color: rgb(238, 238, 238);
+    margin-right: 0.5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 5px;
+
+    font-weight: bold;
+    color: #303030;
+}

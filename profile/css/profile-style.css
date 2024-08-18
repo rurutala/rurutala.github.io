@@ -1,0 +1,70 @@
+.profile-first-title{
+    padding-top: 3rem;
+    text-align: center;
+    padding-right: 20%;
+
+}
+
+.basic-information{
+    padding-top: 5rem;
+}
+
+.infomation-bottom-border{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    border-bottom-style: solid;
+    border-color: #1e2f4a;
+    border-bottom-width: 0.2rem;
+}
+
+.basicinfomation-bottom-border{
+    margin-left: 18%;
+    margin-right: 18%;
+    border-bottom-style: solid;
+    border-color: #1e2f4a;
+    border-bottom-width: 0.2rem;
+}
+
+.information_grid{
+    display: grid;
+    
+    grid-template-columns: 10rem 0.5rem 30rem;
+
+    padding-left: 20%;
+    padding-top: 1.5rem;
+}
+
+.item-information-title{
+grid-row: 1;
+grid-column: 1;
+font-weight: bold;
+}
+
+.item-information-text{
+grid-row: 1;
+grid-column: 3;
+}
+
+.information-detail{
+    padding-top: 8rem;
+
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.icon-profile-telescope{
+    width: 2rem;
+    height: 1.5rem;
+
+}
+
+.outlook-detail{
+    padding-top: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.timeline-icon-image{
+    width: 60%;
+    filter: brightness(0) invert(1);
+}
