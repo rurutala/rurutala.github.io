@@ -1,0 +1,92 @@
+.contact{
+    padding-top: 3rem;
+}
+.contact-title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 20%;
+}
+.contact-text{
+    padding-top: 1.7rem;
+    padding-left: 20%;
+    padding-bottom: 2rem;
+}
+
+.contact-bottom-border{
+    padding-top: 7rem;
+    border-bottom-style: solid;
+    border-color: #202020;
+    border-bottom-width: 0.1rem;
+}
+
+.contact-button-place{
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.btn-c,
+a.btn-c,
+button.btn-c {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-flat-c {
+  overflow: hidden;
+
+ /* padding: 1.5rem 6rem;*/
+
+  color: #fff;
+  border-radius: 0;
+  background: #202020;;
+
+  border-radius:30px;
+}
+
+a.btn-flat-c span {
+  position: relative;
+}
+
+a.btn-flat-c:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 150%;
+  height: 500%;
+
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-85%) translateY(-25%) rotate(45deg);
+  transform: translateX(-85%) translateY(-25%) rotate(45deg);
+
+  background: #60B3FF;
+}
+
+a.btn-flat-c:hover:before {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}

@@ -1,0 +1,105 @@
+*,body,ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  /* ↓ スライドの外枠 */
+  .slide-wrapper {
+    width: 100%;
+    /*height: 35rem;*/
+    max-height: 40rem;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    overflow: hidden; /* はみ出したスライドを隠す */
+    
+  }
+  /*  ↓ スライド（コンテンツ） */
+  .slide { /*スライド全体 */
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: all .6s;
+    
+    
+  }
+  .slide div { /* スライド */
+    width: 33.33%;
+    height: 100%;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .slide1 { /* スライドさせるために必要なクラス */
+    transform: translateX(0);
+  }
+  .slide2 { /* スライドさせるために必要なクラス */
+    transform: translateX(-33.33%);
+  }
+  .slide3 { /* スライドさせるために必要なクラス */
+    transform: translateX(-66.66%);
+  }
+  .slide div:nth-of-type(1){ /* 背景色 */
+    background-color: #1e2f4a;
+  }
+  .slide div:nth-of-type(2){ /* 背景色 */
+    background-color: #1e2f4a;
+  }
+  .slide div:nth-of-type(3){ /* 背景色 */
+    background-color: #1e2f4a;
+  }
+  /* ↓ 左右のボタン */
+  .next {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 25px;
+    bottom: 50%;
+    z-index: 10;
+    cursor: pointer;
+    border-top: solid 10px #fafafa;
+    border-right: solid 10px #fafafa;
+    -webkit-transform: rotate(45deg) translateY(50%);
+    transform: rotate(45deg) translateY(50%);
+  }
+  .prev {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 35px;
+    bottom: 50%;
+    z-index: 10;
+    cursor: pointer;
+    border-top: solid 10px #fafafa;
+    border-right: solid 10px #fafafa;
+    -webkit-transform: rotate(-135deg) translateY(-50%);
+    transform: rotate(-135deg) translateY(-50%);
+  }
+  /* ↓ インジケーター */
+  .indicator {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    column-gap: 18px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+  }
+  .indicator li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    list-style: none;
+    background-color: #fff;
+    border: 2px #000 solid;
+    cursor: pointer;
+  }
+  .indicator li:first-of-type {
+    background-color: #1e2f4a;
+  }
+  
