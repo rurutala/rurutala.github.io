@@ -75,14 +75,19 @@ padding-bottom: 1rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+
+        /* 高さを固定 */
+        height: 25px; /* 必要に応じて調整 */
+        line-height: 1.2; /* 行の高さを調整してテキストが中央に揃うように */
 }
 
 .filter-btn:hover {
     background-color: #4c6fa5;
 }
-
-.item {
-    display: block;
+.filter-btn.active {
+    background-color: #ffa928; /* 押されているときの色 */
+    color: white; /* 必要に応じてテキスト色も変更可能 */
+    font-weight: bold; /* アクティブなボタンを強調するために太字に */
 }
 
 .item.hidden {
