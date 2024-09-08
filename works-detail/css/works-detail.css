@@ -133,3 +133,15 @@
   padding: 10px;
   font-size: 20px;
 }
+
+.timeline-gotolink{
+  background-color: rgb(220, 220, 220);
+  margin-right: 0.5rem;
+  margin-top: 5px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 5px;
+
+  font-weight: bold;
+  color: #303030;
+}
