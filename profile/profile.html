@@ -417,7 +417,19 @@
                 100名以上いる創作サークルの部長兼インフラを行い、部長としては日々の会議や仕事の割り当て、サークル内の仕事を担当し、基盤となる部分の日程管理を行っています。インフラでは部内SNSに参加できないなどのサポート対応を行っています。
                 <br><br>サークル活動としてはゲーム開発はもちろんの事、イラスト、3DCG、DTMや映像など様々な分野に挑戦をしています。</p>
                 <br>また学業にもしっかりと力を入れています。
-                <p class="timeline-gotolink"><a href="">学業成績ページ</a></p>
+            <!-- クリックするテキスト -->
+            <p id="openCustomModalText" class="timeline-gotolink" style="cursor: pointer;">学業成績表示</p>
+
+            <!-- カスタムモーダル -->
+            <div id="customImageModal" class="custom-modal">
+                <div class="custom-modal-content">
+                    <span class="custom-close">&times;</span>
+                    <div class="custom-image-container">
+                        <img src="../image/Grades1.png" alt="学科順位" class="custom-modal-image">
+                        <img src="../image/Grades2.png" alt="GPA" class="custom-modal-image">
+                    </div>
+                </div>
+            </div>
                 <p class="timeline-gotolink"><a href="https://digicre.net/welcome/">デジクリ公式サイト(紹介ページ)</a></p>
 
           </div>
@@ -475,6 +487,7 @@
 <script src="../js/top_slide_works.js"></script>
 <script src="../js/works_slide_works.js"></script>
 <script src="../profile/Js/profile-slider.js"></script>
+<script src="../profile/Js/profile-modal.js"></script>
 
 
 </body>
