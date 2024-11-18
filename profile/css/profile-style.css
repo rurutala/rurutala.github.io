@@ -198,3 +198,7 @@ tr:nth-child(even) {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+@media (max-width: 500px) {  
+
+}
