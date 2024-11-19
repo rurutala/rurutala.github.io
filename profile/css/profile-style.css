@@ -201,4 +201,42 @@ tr:nth-child(even) {
 
 @media (max-width: 500px) {  
 
+    .profile-first-title{
+        padding-top: 2rem;
+        text-align: center;
+        padding-right: 20%;
+    
+    }
+    .basic-information{
+        padding-top: 2rem;
+    }
+
+    .information_grid{
+        display: grid;
+        
+        grid-template-columns: 5rem 5px 15rem;
+    
+        padding-left: 10%;
+        padding-top: 1.5rem;
+    }
+
+    .information-detail{
+        padding-top: 3rem;
+    
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .outlook-detail{
+        padding-top: 1rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .basicinfomation-bottom-border{
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom-style: solid;
+        border-color: #1e2f4a;
+        border-bottom-width: 0.2rem;
+    }
 }

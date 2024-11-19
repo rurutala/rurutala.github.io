@@ -93,3 +93,33 @@ padding-bottom: 1rem;
 .item.hidden {
     display: none;
 }
+@media (max-width: 500px) { 
+    .works-grid{
+        display: grid;
+    
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        gap: 60px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .works-display{
+        height: 400px;
+    
+    }
+
+    .filter-btn {
+        background-color: #1e2f4a;
+        color: white;
+        padding: 5px 10px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    
+            /* 高さを固定 */
+            height: 25px; /* 必要に応じて調整 */
+            line-height: 1.2; /* 行の高さを調整してテキストが中央に揃うように */
+    }
+}

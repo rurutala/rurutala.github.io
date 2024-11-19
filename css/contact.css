@@ -91,3 +91,12 @@ a.btn-flat-c:hover:before {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
+
+@media (max-width: 500px) {  
+  .contact-text{
+    padding-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+}

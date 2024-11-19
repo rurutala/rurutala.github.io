@@ -151,3 +151,66 @@
     z-index: -1; /* テキストの背後に表示 */
 }
 
+
+
+@media (max-width: 500px) {  
+  .works-text{
+    padding-top: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.works-bottom-border{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-color: #1e2f4a;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2rem;
+}
+
+.swiper{
+  max-width: 1000px;
+  max-height: 700px;
+  aspect-ratio: 16 / 9;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  margin-top: 2rem;
+}
+
+.works-name-text{
+  z-index: 1;
+  margin-top: 15px;
+  left: 50%;
+  text-align: center;
+  position: absolute;
+  line-height: 1rem;
+
+  border-radius: 15px;
+
+  transform: translate(-50%, -50%);
+}
+
+.works-theme-text{
+  z-index: 1;
+  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10%;
+  margin-right: 2%;
+  line-height: 15px;
+
+}
+
+.works-day-text{
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1.5%;
+  margin-right: 2%;
+  line-height: 15px;
+
+}
+}

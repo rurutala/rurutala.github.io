@@ -145,3 +145,34 @@
   font-weight: bold;
   color: #303030;
 }
+@media (max-width: 500px) { 
+  .round-button-undo {
+    width: 5.5rem; /* ボタンの幅を指定 */
+    height: 5.5rem; /* ボタンの高さを指定 */
+    border-radius: 50%; /* ボタンを丸くする */
+    background-color: #1e2f4a; /* ボタンの背景色を指定 */
+    color: #FFFFFF; /* ボタンのテキスト色を指定 */
+    border: none; /* ボタンの境界線をなしにする */
+    font-size: 2rem; /* ボタンのテキストの大きさを指定 */
+    cursor: pointer; /* マウスがボタン上にある場合はポインターを変更 */
+    outline: none; /* ボタンをクリックしたときにアウトラインを削除 */
+
+    transition: 0.3s;
+  }
+
+  .round-button-undo:hover {
+    width: 6rem; /* ボタンの幅を指定 */
+    height: 6rem; /* ボタンの高さを指定 */
+    border-radius: 50%; /* ボタンを丸くする */
+    background-color: #1e2f4a; /* ボタンの背景色を指定 */
+    color: #FFFFFF; /* ボタンのテキスト色を指定 */
+    border: none; /* ボタンの境界線をなしにする */
+    font-size: 2rem; /* ボタンのテキストの大きさを指定 */
+    cursor: pointer; /* マウスがボタン上にある場合はポインターを変更 */
+    outline: none; /* ボタンをクリックしたときにアウトラインを削除 */
+  }
+  .move-undo{
+    padding-left: 1.1rem;
+  }
+
+}
