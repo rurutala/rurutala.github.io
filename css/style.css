@@ -207,5 +207,12 @@ a{
   .move-top{
     padding-left: 0.6rem;
   }
+
+    .button-container {
+    position: fixed; /* ボタンを画面に固定 */
+    bottom: 20px; /* 画面下部からの距離を指定 */
+    right: 25px; /* 画面右からの距離を指定 */
+    z-index: 10;
+  }
   
 }

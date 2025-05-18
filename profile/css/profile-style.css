@@ -180,14 +180,14 @@ tr:nth-child(even) {
 
 /* カスタム画像を横に並べるコンテナ */
 .custom-image-container {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-around; /* 画像の間にスペースを作る */
     gap: 20px; /* 画像間のスペース */
 }
 
 /* カスタム画像自体のスタイル */
 .custom-modal-image {
-    width: 45%; /* 画像の幅（コンテナの幅に対する割合） */
+    width: 95%; /* 画像の幅（コンテナの幅に対する割合） */
     max-height: 300px;
     object-fit: cover; /* 画像が正しく表示されるように切り取る */
     border-radius: 10px;
