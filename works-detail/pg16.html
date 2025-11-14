@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>塚田雅大のポートフォリオサイト</title>
+    <meta name="description" content = "塚田雅大のポートフォリオサイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/top_slide_works.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../profile/css/profile-style.css">
+    <link rel="stylesheet" href="../works-all/css/works-all-style.css">
+    <link rel="stylesheet" href="./css/works-detail.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="first_header">
+            <div class="title_text">
+                Masahiro Tsukada<br>Portpolio Site
+            </div>
+            <ul class="menu_ul">
+                <li class="menu_li"><a href="./../index.html"><img src="./../image/home.png" alt="home画像" class="icon-home">Home</a></li>
+                <li class="menu_li"><a href="./../profile/profile.html"><img src="./../image/profile.png" alt="profile画像" class="icon-profile">Profile</a></li>
+                <li class="menu_li"><a href="./../works-all/works-all.html"><img src="./../image/works.png" alt="works画像" class="icon-works">Works</a></li>
+            </ul>
+        </div>
+        <div class="second_header">
+            <div class="navtext-container">
+              <div class="navtext">Masahiro Tsukada<br>Portpolio Site</div>
+            </div>
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li class="top menu_li"><a href="./../index.html" class="second_menu">Home</a></li>
+              <li class="menu_li"><a href="./../profile/profile.html">Profile</a></li>
+              <li class="menu_li"><a href="./../works-all/works-all.html">Works</a></li>
+            </ul>
+          </div>
+    </header>
+
+<div class="profile-first-title profile-title">
+    <img src="../image/works.png" alt="Worksタイトル" class="icon-profile-home">
+    Works
+
+</div>
+<div class="infomation-bottom-border"></div>
+
+<div class="works-detail-title">
+    ダブルクロス
+</div>
+
+<div class="works-detail-genre">
+    <div class="works-all-genre-detail">
+        programming
+    </div>
+    <div class="works-all-genre-detail">
+        Unity,C#
+    </div>
+        <div class="works-all-genre-detail">
+        Github
+    </div>
+</div>
+
+<div class="swiper">
+    <!-- 必要に応じたwrapper -->
+    <div class="swiper-wrapper works_slide">
+      <!-- スライド -->
+        <div class="swiper-slide">
+            <div>
+
+            <div class="works-name-text">
+                ゲーム動画
+            </div>
+            <video src="./../image/doublecross.mp4" controls class="responsive-img-slide"></video>
+            <div class="works-theme-text">
+
+            </div>
+            <div class="works-day-text">
+
+            </div>
+            </div>
+        </div>
+ 
+    </div>
+    <div class="swiper-pagination"></div>
+<!-- 必要に応じてナビボタン -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="works-detail-text">
+    <b>【説明】</b><br>
+    部屋の中に敵がいるかもしれない、でもVR視点からは見えない。そこでドローンを使って索敵をすることで先手を打つVRゲームです。<br>
+    VRの視認性を生かした探索システムのゲームを最大限に生かした体験になるように意識して開発を行いました。<br>今後はよりステルスを重視した体の露出度や音による検知、ドローンを使って倒せない俳諧者を捌くラストミッションを検討しています。
+    <br><br>
+    <b>【使用した技術】</b><br>
+    Unity XR<br>
+
+  </div>
+
+
+  <div class="button-container">
+    <button class="round-button" onclick="location.href=''">▲</button>
+    <div class="move-top">TOPへ戻る</div>
+  </div>
+
+  <div class="button-container-undo">
+    <button class="round-button-undo" onclick="location.href='../works-all/works-all.html'">◀</button>
+    <div class="move-undo">Worksへ</div>
+  </div>
+
+<div class="contact-bottom-border"></div>
+
+<footer>
+    Copyright © 2025 MasahiroTsukada All Rights Reserved.
+</footer>
+
+<!-- JavaScriptファイルの読み込み -->
+<script src="../js/header_switch.js"></script>
+<script src="../js/top_slide_works.js"></script>
+<script src="../js/works_slide_works.js"></script>
+
+
+</body>
+</html>
